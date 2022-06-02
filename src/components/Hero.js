@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section
       className="wrapper bg-[#081720] flex items-center justify-between 
-    px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative"
+    px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative z-[3]"
     >
       {/* left side */}
       <section className="headings flex flex-col items-start justify-center h-[100%] text-[3rem]">
