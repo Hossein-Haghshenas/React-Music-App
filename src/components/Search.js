@@ -1,3 +1,5 @@
+import MusicPlayer from "./MusicPlayer";
+
 function Search() {
   return (
     <section
@@ -34,13 +36,13 @@ function Search() {
         />
       </section>
       {/* right side */}
-      <section className="right flex items-start flex-col justify-start flex-1 h-[100%] pt-[9rem]">
+      <section className="right flex items-start flex-col justify-start flex-1 h-[100%] pt-[9rem] ml-[1.2rem]">
         {/* Search bar */}
         <section className="searchbar flex justify-start w-[100%]">
           <input
             type="text"
             placeholder="Enter the keyword or URL"
-            className="flex-[19] ml-[1rem] outline-none bg-[#020917] rounded-xl p-3 h-[3rem]"
+            className="flex-[19]  outline-none bg-[#020917] rounded-xl p-3 h-[3rem]"
           />
           {/* search icon */}
           <section
@@ -54,6 +56,27 @@ function Search() {
             />
           </section>
         </section>
+        {/* tild icon */}
+        <section className="tild flex justify-start mt-7 items-center w-[100%]">
+          <img
+            src={require("../image/Path 318.png")}
+            alt=""
+            className="w-[5rem]"
+          />
+        </section>
+        {/* paragraph */}
+        <section className="details flex flex-col mt-5 text-4xl">
+          <span>Search Music by</span>
+          <span>
+            <b>Name or Direct URL</b>
+          </span>
+          <span className="text-sm mt-3 text-[#4d586a]">
+            Duis feugiat congue metus ultrices vulputate <br /> nibh viverra
+            eget. Vestibulum ullamcorper <br /> volutpat varius
+          </span>
+        </section>
+        {/* Music Player */}
+        <MusicPlayer />
       </section>
     </section>
   );
