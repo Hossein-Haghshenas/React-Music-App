@@ -3,26 +3,27 @@ import CenterMenu from "./CenterMenu";
 import { Facebook, Twitter, YouTube, LinkedIn } from "@material-ui/icons";
 
 function Footer() {
-  const socialStyle = "rounded-full border-2 border-white p-2 mr-[5rem]";
+  const socialStyle =
+    "rounded-full border-2 border-white p-2 mr-[5rem] cursor-pointer hover:bg-gradient-to-bl from-[#f3071d] to-[#e600ff]";
 
   return (
     <section
       className="footer flex flex-col items-center justify-start px-[5rem] pt-[18rem] mt-[-10rem]
-       h-[45rem] relative z-[-1] bg-[#081730]"
+       h-[45rem] relative z-[0] bg-[#081730] "
     >
       <CenterMenu />
       {/* Social icons */}
-      <section className="flex w-[100%] justify-center mt-14">
-        <section className={`facebook ${socialStyle}`}>
+      <section className="flex w-[100%] justify-center mt-14 z-[1]">
+        <section className={`facebook  ${socialStyle}`}>
           <Facebook />
         </section>
-        <section className={`twitter ${socialStyle}`}>
+        <section className={`twitter  ${socialStyle}`}>
           <Twitter />
         </section>
-        <section className={`youtube ${socialStyle}`}>
+        <section className={`youtube  ${socialStyle}`}>
           <YouTube />
         </section>
-        <section className={`linkedin ${socialStyle}`}>
+        <section className={`linkedin  ${socialStyle}`}>
           <LinkedIn />
         </section>
       </section>

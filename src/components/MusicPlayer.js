@@ -39,7 +39,12 @@ function MusicPlayer() {
         <section className="controls flex flex-1 items-center justify-around">
           {/* previous arrow */}
 
-          <svg width="10.455" height="12.442" viewBox="0 0 10.455 12.442">
+          <svg
+            className="cursor-pointer"
+            width="10.455"
+            height="12.442"
+            viewBox="0 0 10.455 12.442"
+          >
             <path
               d="M62.208,5.066,69.119.334A1.687,1.687,0,0,1,70.027,0c.517,0,.836.415.836,1.109V11.334c0,.693-.319,1.107-.835,1.107a1.673,1.673,0,0,1-.9-.335L62.211,7.376A1.419,1.419,0,0,1,61.52,6.22,1.414,1.414,0,0,1,62.208,5.066Z"
               transform="translate(-61.52 0)"
@@ -58,7 +63,7 @@ function MusicPlayer() {
 
           {/* pauseButton */}
 
-          <section className="pauseButton flex items-center relative">
+          <section className="pauseButton flex items-center relative cursor-pointer">
             {/* cicrle */}
 
             <svg width="40" height="40" viewBox="0 0 40 40">
@@ -125,7 +130,12 @@ function MusicPlayer() {
 
           {/* next arrow */}
 
-          <svg width="10.455" height="12.442" viewBox="0 0 10.455 12.442">
+          <svg
+            className="cursor-pointer"
+            width="10.455"
+            height="12.442"
+            viewBox="0 0 10.455 12.442"
+          >
             <path
               id="Path_3"
               data-name="Path 3"

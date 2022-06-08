@@ -6,7 +6,7 @@ function Download() {
     <section
       className="download flex flex-col items-center justify-start
        px-[5rem] py-[18rem] mt-[-10rem] h-[48rem] rounded-b-[5rem]
-     relative z-[0]  bg-[#020917]"
+     relative z-[1]  bg-[#020917]"
     >
       {/* tild icon */}
       <img src={require("../image/Path 318.png")} alt="" className="w-[5rem]" />
