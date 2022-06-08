@@ -18,7 +18,7 @@ function Download() {
         </span>
         <span className="text-[1rem] text-gray-400 text-center mt-[1rem] pt-[1rem]">
           Duis feugiat congue metus ultrices vulputate nibh viverra eget.
-          Vestibulum ullamcorper volutpat varius
+          Vestibulum ullamcorper volutpat <br /> varius
         </span>
       </section>
       {/* download ads */}
